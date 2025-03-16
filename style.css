@@ -30,3 +30,10 @@ button::after {
     background-image: linear-gradient(to bottom right, #008cff, #e100ff, #00ff9e, #ff9e00);
     z-index: -1;
 }
+
+button:hover {
+    z-index: 0;
+    box-shadow: 40px 0 100px #00aeff, -40px 0 100px #ea00ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
